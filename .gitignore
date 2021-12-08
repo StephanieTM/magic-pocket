@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist_github_page/
+
+.vscode
+.eslintcache
+.DS_Store

@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "ESNext",
+    "lib": [ "dom", "esnext" ],
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react",
+    "declaration": false,
+    "sourceMap": true,
+    "noEmit": true,
+    "strict": false,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "app": ["./app"],
+      "app/*": ["./app/*"],
+      "src": ["./src"],
+      "src/*": ["./src/*"],
+      "common": ["./src/common"],
+      "common/*": ["./src/common/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "importsNotUsedAsValues": "preserve",
+    "pretty": true,
+    "importHelpers": true
+  },
+  "exclude": [],
+  "include": [
+    "./app",
+    "./src"
+  ]
+}
