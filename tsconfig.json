@@ -24,8 +24,8 @@
       "app/*": ["./app/*"],
       "src": ["./src"],
       "src/*": ["./src/*"],
-      "common": ["./src/common"],
-      "common/*": ["./src/common/*"]
+      "common": ["./common"],
+      "common/*": ["./common/*"]
     },
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -40,6 +40,7 @@
   "exclude": [],
   "include": [
     "./app",
-    "./src"
+    "./src",
+    "./common"
   ]
 }

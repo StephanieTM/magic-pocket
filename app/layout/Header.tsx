@@ -9,7 +9,7 @@ export default function Header(): JSX.Element {
     <div className={c('app-header-container')}>
       <div className={c('menu-container')}>
         <Link to="/" className={c('menu-link')}>Home</Link>
-        <Link to="/projects" className={c('menu-link')}>Projects</Link>
+        <Link to="/demos" className={c('menu-link')}>Demos</Link>
       </div>
     </div>
   );

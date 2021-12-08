@@ -22,9 +22,15 @@ export const routes: IRouteConfig[] = [
     component: () => import('src/components/homepage'),
   },
   {
-    title: 'Projects',
-    code: 'projects',
-    link: '/projects',
-    component: () => import('src/components/projects'),
+    title: 'Demos',
+    code: 'Demos',
+    link: '/demos',
+    component: () => import('src/components/demos'),
+  },
+  {
+    title: 'Custom Tree',
+    link: '/demos/custom-tree',
+    component: () => import('src/components/demos/custom-tree'),
+    hideInMenu: true,
   },
 ];

@@ -1,0 +1,131 @@
+.customtree-container {
+  padding-bottom: 30px;
+  overflow: scroll;
+}
+
+.customtree-node-container {
+  position: relative;
+  display: inline-block;
+  padding: 16px;
+  padding-right: 52px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  .customtree-node-add-child-btn {
+    margin-bottom: 16px;
+    text-align: right;
+  }
+}
+
+.customtree-node {
+  display: flex;
+  align-items: center;
+
+  .cutomtree-node-relation-container {
+    display: flex;
+    align-items: center;
+
+    &::after {
+      display: inline-block;
+      width: 20px;
+      height: 1px;
+      vertical-align: middle;
+      content: "";
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .relation-select {
+      min-width: 65px;
+    }
+  }
+
+  .node-children-container {
+    position: relative;
+
+    .node-children {
+      display: flex;
+      align-items: center;
+
+      &::before {
+        display: inline-block;
+        width: 20px;
+        height: 1px;
+        vertical-align: middle;
+        content: "";
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .node-children:not(:first-child) {
+      margin-top: 16px;
+    }
+  }
+}
+
+.customtree-leaf-container {
+  display: inline-block;
+
+  .customtree-leaf-body-container {
+    position: relative;
+    display: inline-block;
+
+    .customtree-leaf-body {
+      display: inline-block;
+      padding: 16px;
+      background-color: rgba(0, 0, 0, 0.03);
+      border: 1px solid rgba(0, 0, 0, 0.1);
+
+      .customtree-leaf-select-group {
+        display: inline-flex;
+        align-items: center;
+
+        .operate-select {
+          width: 90px;
+          margin: 0 8px;
+        }
+
+        .data-select {
+          width: 150px;
+        }
+
+        .data-value-select {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+
+.customtree-opt-btn {
+  width: 22px;
+  height: 22px;
+  padding: 2px;
+  margin-left: 10px;
+  vertical-align: middle;
+
+  .btn-icon {
+    font-size: 16px;
+  }
+}
+
+.set-main-btn {
+  margin-top: 8px;
+}
+
+.leaf-minus-btn {
+  position: absolute;
+  right: 0;
+  margin-right: -36px;
+}
+
+.node-minus-btn {
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 0;
+  margin-right: -36px;
+}
+
+.customtree-leaf-first-add-btn {
+  margin-bottom: 16px;
+  text-align: right;
+}
