@@ -1,0 +1,1 @@
+(self.webpackChunkmagic_pocket=self.webpackChunkmagic_pocket||[]).push([[736],{},function(c){"use strict";var n=function(n){return c(c.s=n)};c.O(void 0,[935],(function(){return n(7294),n(3935)}))}]);
