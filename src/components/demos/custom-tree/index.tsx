@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { useAsyncRetry } from 'react-use';
 import { Button, message } from 'antd';
-import CustomTree, { ICustomTreeRef, ITreeData } from 'common/components/tree';
+import CustomTree, { ICustomTreeRef, ITreeData } from 'common/components/custom-tree';
 import { getSourceDataList } from './service';
 import './index.less';
 

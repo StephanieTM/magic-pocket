@@ -1,4 +1,4 @@
-import { ISourceData } from 'common/components/tree';
+import { ISourceData } from 'common/components/custom-tree';
 
 export const getSourceDataList = (): Promise<ISourceData[]> => new Promise((resolve) => {
   resolve([{
